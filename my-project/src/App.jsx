@@ -8,9 +8,10 @@ function App() {
 
   return (
     <>
-        <div className="h-full flex flex-col justify-center space-y-10 mx-20 border p-5 ">
+        <div className="h-full w-full flex flex-col justify-center space-y-10  mx-20 border p-5 ">
           <div className="flex flex-col items-start space-y-2">
             <h3 className="text-purple-900 text-2xl">Instragram</h3>
+            <p>Welcome to my little Instagram</p>
             <h1 className="text-black-500 text-3xl">Instragram Story</h1>
           </div>
           <div className="flex flex-row space-x-5">
@@ -23,7 +24,7 @@ function App() {
                     alt="image"
                   />
                 </a>
-                <butto className="p-0 absolute bottom-0 right-0 bg-blue-500  w-8 h-8  text-white rounded-full text-2xl font-semibold font-mono border-4 flex items-center justify-center border-white hover:bg-blue-800">+</butto>
+                <button className="p-0 absolute bottom-0 right-0 bg-blue-500  w-8 h-8  text-white rounded-full text-2xl font-semibold font-mono border-4 flex items-center justify-center border-white hover:bg-blue-800">+</button>
               </div>
               <p>you</p>
             </div>
